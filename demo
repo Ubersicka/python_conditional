@@ -1,0 +1,54 @@
+# number = int(input())
+#
+# #Примери - Ако числото 10 е по-малко от 10 влиза в първото if, ако числото е по-малко
+# #от 100 влиза в elif и т.н.
+# if number < 10: #ako
+#     print("Lower than 10")
+# elif number < 100:  #osven ako
+#     print ("Between 10 and 100")
+# else:   #za vsichki ostanali sluchai
+#     print ('Greater than 100')
+
+# if
+# if         #Само if започва една условна конструкция , стоест горно if няма нищо общо с този if на този ред.
+# elif
+
+# if
+# elif
+# elif
+# elif
+# elif
+# else
+
+-----------
+# import math
+#
+# a = float(input())
+#
+# print(math.floor(a)) #zakruglq do po malkot chislo a math.ceil zakruglq do po golqmoto
+#
+# import math
+#
+# a = float(input())
+# print (round(a, 2))
+
+import math
+
+figure = input()
+
+side_a = float(input())
+
+if figure == "square":
+    area = side_a * side_a
+    print(f"{area:.3f}")
+elif figure == "rectangle":
+    side_b = float(input())
+    area = side_a * area_n
+    print(f"{area:.3f}")
+elif figure == "circle":
+    area = math.pi * side_a * side_a
+    print(f"{area:.3f}")
+elif figure == "triangle":
+    h = float(input())
+    area = (side_a * h) / 2
+    print(f"{area:.3f}")
